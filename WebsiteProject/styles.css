@@ -1,0 +1,153 @@
+#Nav-Container > div{
+    padding-left:80px;
+    padding-right:80px;
+}
+
+.navbar-brand {
+    height: 40px;
+    width: 40px;
+}
+.carousel-caption-ben {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner {
+    height: 50vh;
+}
+
+.dropdown-item{
+    color: rgb(52,88,176);
+}
+
+.pe-6 {
+    direction:rtl;
+    padding-right:11rem !important;
+}
+
+.ps-6 {
+    direction:ltr;
+    padding-left:11rem !important;
+}
+
+.timeline-container {
+    width: 50%;
+    border-right: 2px solid black;
+    margin-top: 30px;
+}
+
+.timeline-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline-3:before {
+    content: " ";
+    background-color: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline-3 > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline-3 > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgba(212,217,223,1);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+#Footer-Container > div{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#moreContentButton {
+    display: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(135,138,143,0.8);
+}
+
+.additional-corp {
+    display: none;
+}
+
+#additional-corp-button {
+
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8px 16px;
+        border: none;
+        background-color: transparent;
+        border-radius: 1px;
+        cursor: pointer;
+
+}
+
+/*iPhone-Screen */
+@media only screen and (max-width: 430px) {
+    #title-index{
+        padding: 0 !important;
+        padding-bottom: 30px !important;
+    }
+
+
+    body #second-point{
+        margin-bottom: 0rem !important;
+    }
+
+    .carousel-inner {
+        display: none !important;
+    }
+
+    .additional-year {
+        display: none;
+    }
+
+    #moreContentButton {
+        display: block;
+    }
+
+    body #initial-text {
+        padding-top: 0rem !important;
+    }
+
+
+
+}
+
+/*iPad-Screen */
+@media only screen and (max-width: 850px) {
+    .carousel-inner {
+        display: block;
+        height: 30vh;
+    }
+
+    #initial-text {
+        padding-top: 0;
+    }
+
+    #1-point {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+}
